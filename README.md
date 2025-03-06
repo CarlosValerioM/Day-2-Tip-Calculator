@@ -23,21 +23,38 @@ None (built-in functions only)
 It then calculates the amount each person should pay and displays the result.
 
 ## Usage:
-To use the script, run it in your terminal:
+
+1. Clone this repository:
+
 ```bash
-python tipCalculator.py
+git clone https://github.com/CarlosValerioM/Day-2-Tip-Calculator.git
+```
+Navigate to the project directory:
+```bash
+cd Day-2-Tip-Calculator
+```
+Run the script:
+```bash
+python Tip-Calculator.py
 ```
 
 The script will prompt you for input, and based on your responses, it will calculate the tip and the total per person.
 
 Example Output:
 Enter the total bill: 100
+
 Enter the tip percentage: 15
+
 Enter the number of people: 4
+
 Each person should pay: $28.75
-How it works:
+
+##How it works:
 The user inputs the total bill, the desired tip percentage, and the number of people splitting the bill.
+
 The script calculates the total tip by multiplying the bill by the tip percentage.
+
 The total amount is divided by the number of people to calculate the amount each person should pay.
-License:
+
+##License:
 This project is licensed under the MIT License.
